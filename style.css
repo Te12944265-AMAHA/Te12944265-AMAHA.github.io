@@ -1,0 +1,116 @@
+body {
+  /* font-family: 'Arial', sans-serif; */
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  /* font: 14px BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; */
+}
+
+header {
+  background-color: #754caf;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700; /* change to your preferred hover color */
+}
+
+div.big_div {
+  max-width: 800px;
+  margin: 60px auto 20px;
+}
+
+
+
+section {
+  max-width: 800px;
+  margin: 20px auto 20px; /* Adjusted margin to accommodate the fixed header */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+
+}
+
+td.pub_card_left {
+  width: 50%;
+  padding: 0 15px;
+}
+
+td.pub_card_right {
+  width: 50%;
+}
+
+td.about_card_left {
+  width: 70%;
+  padding: 0 15px;
+}
+
+td.about_card_right {
+  width: 30%;
+}
+
+h1, h2, h3 {
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #754caf;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #754caf;
+  color: #fff;
+}
