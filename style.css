@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #754caf;
+  background-color: #f19999;
   color: #fff;
   padding: 1em 0;
   text-align: center;
@@ -17,6 +17,7 @@ header {
   width: 100%;
   top: 0;
   z-index: 1000;
+  font-size: large;
 }
 
 nav {
@@ -29,24 +30,38 @@ nav {
 nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 20px;
+  margin: 0 30px;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 nav a:hover {
-  color: #ffd700; /* change to your preferred hover color */
+  color: #7a2222; /* change to your preferred hover color */
 }
 
-div.big_div {
-  max-width: 800px;
-  margin: 60px auto 20px;
+a.about-card-contact:hover {
+  color: #7a2222; /* change to your preferred hover color */
+}
+
+div.big-div {
+  max-width: 930px;
+  margin: 70px auto 20px;
+}
+
+/* div.about-tag {
+
+} */
+
+div.about-card-contact p {
+  font-size: medium;
+  padding-top: 10px;
+  padding-left: 5px;
 }
 
 
 
 section {
-  max-width: 800px;
+  max-width: 930px;
   margin: 20px auto 20px; /* Adjusted margin to accommodate the fixed header */
   padding: 20px;
   background-color: #fff;
@@ -60,33 +75,82 @@ table {
 
 }
 
-td.pub_card_left {
+/* td {
+  align-content: center;
+} */
+
+td.pub-card-left {
   width: 50%;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
-td.pub_card_right {
+td.pub-card-right {
   width: 50%;
 }
 
-td.about_card_left {
-  width: 70%;
-  padding: 0 15px;
+td.about-card-left {
+  width: 50%;
+  padding: 0px;
 }
 
-td.about_card_right {
-  width: 30%;
+td.about-card-right {
+  width: 50%;
+  padding: 0px;
 }
+
+td.about-tag-icon {
+  width: 0%;
+  padding-right: 20px;
+}
+
+td.about-tag-desc {
+  width: 80%;
+  font-size:medium;
+}
+
+td.about-tag-icon i {
+  font-size: 30px;
+}
+
+/* tr.about-tag-row {
+  height: 50px;
+} */
+
+/* div.about-tag p {
+  font-size: medium;
+} */
 
 h1, h2, h3 {
   color: #333;
 }
 
-img {
+.big-div-heading {
+  font-size: x-large;
+}
+
+.pub-card-conf {
+  font-size: smaller;
+  color: #6d6464;
+}
+
+#avatar {
+  max-width: 70%;
+  height: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  display: block;
+}
+
+td.pub-card-left img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  display: block;
+}
+
+td.pub-card-right {
+  padding-right: 10px;
 }
 
 p {
@@ -103,7 +167,7 @@ li {
 }
 
 a {
-  color: #754caf;
+  color: #f19999;
   text-decoration: none;
   font-weight: bold;
 }
@@ -111,6 +175,6 @@ a {
 footer {
   text-align: center;
   padding: 20px;
-  background-color: #754caf;
+  background-color: #f19999;
   color: #fff;
 }

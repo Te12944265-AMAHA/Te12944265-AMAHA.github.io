@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tina Tian's Vault</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp|Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <div class="frontpage_banner">
+    <div class="frontpage-banner">
       
     </div>
     <nav>
@@ -20,40 +21,85 @@
     </nav>
   </header>
 
-  <div class="big_div" id="home">
-    <table class="about_card">
+  <div class="big-div" id="home">
+    <table class="about-card">
       <tr>
-        <td class="about_card_left">
-          <h1>Tina Tian</h1>
-          <div class="pub_card_paragraph">
+        <td class="about-card-left">
+          <h1 style="font-size: 35px;">Tina Tian</h1>        
+            <div class="about-tag">
+              <table>
+                <tr class="about-tag-row" height="60px">
+                  <td class="about-tag-icon">
+                    <i class="material-icons-outlined">smart_toy</i>
+                  </td>
+                  <td class="about-tag-desc">
+                    Full stack robotics engineering and research <br> Specialize in <b>perception, SLAM, ML, computer vision, mechantronics, systems engineering</b>
+                  </td>
+                </tr>
+                <tr class="about-tag-row" height="50px">
+                  <td class="about-tag-icon">
+                    <i class="material-symbols-outlined">emoji_objects</i>
+                  </td>
+                  <td class="about-tag-desc">
+                    Aspiring tech entrepreneur & real-world problem solver
+                  </td>
+                </tr>
+                <tr class="about-tag-row" height="50px">
+                  <td class="about-tag-icon">
+                    <i class="material-icons">school</i>
+                  </td>
+                  <td class="about-tag-desc">
+                    MS in Robotics at Carnegie Mellon University (CMU) <br> BS in Electrical and Computer Engineering at CMU
+                  </td>
+                </tr>
+                <tr class="about-tag-row" height="40px">
+                  <td class="about-tag-icon">
+                    <i class="material-icons">music_note</i>
+                  </td>
+                  <td class="about-tag-desc">
+                    Violinist & classical music 
+                  </td>
+                </tr>
+                <tr class="about-tag-row" height="40px">
+                  <td class="about-tag-icon">
+                    <i class="material-icons-outlined">image</i>
+                  </td>
+                  <td class="about-tag-desc">
+                    Amateur photographer & digital artist
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+          <div class="about-card-contact">
             <p>
-              Welcome to my personal website! I am a passionate robotics engineer with expertise in designing and implementing robotic systems. My goal is to contribute to the advancement of technology and make a positive impact on the world through innovative robotics solutions.
+              <a class="about-card-contact" href="mailto:yutian@andrew.cmu.edu">Email</a> &nbsp;/&nbsp; 
+              <a class="about-card-contact" href="mailto:yutian@andrew.cmu.edu">Resume</a> &nbsp;/&nbsp; 
+              <a class="about-card-contact" href="https://github.com/Te12944265-AMAHA">Github</a> &nbsp;/&nbsp; 
+              <a class="about-card-contact" href="https://www.linkedin.com/in/tina-tian-618458181">LinkedIn</a>
             </p>
           </div>
-          <p class="about_card_contact">
-            <a href="mailto:yutian@andrew.cmu.edu">Email</a> &nbsp;/&nbsp; 
-            <a href="mailto:yutian@andrew.cmu.edu">Resume</a> &nbsp;/&nbsp; 
-            <a href="https://github.com/Te12944265-AMAHA">Github</a> &nbsp;/&nbsp; 
-            <a href="https://www.linkedin.com/in/tina-tian-618458181">LinkedIn</a>
-          </p>
         </td>
-        <td class="about_card_right">
-          <img src="https://avatars.githubusercontent.com/u/31605482?v=4" alt="Your Name">
+        <td class="about-card-right">
+          <img src="https://avatars.githubusercontent.com/u/31605482?v=4" alt="Tina's Avatar" id="avatar">
         </td>
       </tr>
     </table>
   </div>
 
-  <div class="big_div" id="publications">
-    <h2>Publications</h2>
+  <div class="big-div" id="publications">
+    <h2 class="big-div-heading">Publications</h2>
     <section>
       <div>
-        <table class="pub_card">
+        <table class="pub-card">
           <tr>
-            <td class="pub_card_left">img</td>
-            <td class="pub_card_right">
-              <h3>Paper Name 1</h3>
-              <div class="pub_card_paragraph">
+            <td class="pub-card-left">
+              <img src="./images/vill-slam-cover.png" alt="vill-slam-cover" id="vill-slam-cover">
+            </td>
+            <td class="pub-card-right">
+              <h3>Visual-Inertial-Laser-Lidar (VILL) SLAM: Real-time Dense RGB-D Mapping for Pipe Environments</h3>
+              <h4 class="pub-card-conf">International Conference on Intelligent Robots and Systems (IROS) 2023</h4>
+              <div class="pub-card-paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </td>
@@ -63,12 +109,12 @@
     </section>
     <section>
       <div>
-        <table class="pub_card">
+        <table class="pub-card">
           <tr>
-            <td class="pub_card_left">img</td>
-            <td class="pub_card_right">
+            <td class="pub-card-left">img</td>
+            <td class="pub-card-right">
               <h3>Paper Name 1</h3>
-              <div class="pub_card_paragraph">
+              <div class="pub-card-paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </td>
@@ -78,16 +124,16 @@
     </section>
   </div>
 
-  <div class="big_div" id="gallery">
-    <h2>Gallery</h2>
+  <div class="big-div" id="gallery">
+    <h2 class="big-div-heading">Gallery</h2>
     <section>
       <div>
-        <table class="pub_card">
+        <table class="pub-card">
           <tr>
-            <td class="pub_card_left">img</td>
-            <td class="pub_card_right">
+            <td class="pub-card-left">img</td>
+            <td class="pub-card-right">
               <h3>Paper Name 1</h3>
-              <div class="pub_card_paragraph">
+              <div class="pub-card-paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </td>
@@ -97,12 +143,12 @@
     </section>
     <section>
       <div>
-        <table class="pub_card">
+        <table class="pub-card">
           <tr>
-            <td class="pub_card_left">img</td>
-            <td class="pub_card_right">
+            <td class="pub-card-left">img</td>
+            <td class="pub-card-right">
               <h3>Paper Name 1</h3>
-              <div class="pub_card_paragraph">
+              <div class="pub-card-paragraph">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </div>
             </td>
